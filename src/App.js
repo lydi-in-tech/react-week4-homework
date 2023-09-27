@@ -9,9 +9,9 @@ function App() {
             <div className="search-bar">
               <div className="col-9 search-form">
                 <input type="search" placeholder="Search for a city"
-                  autofocus="on"
-                  autocomplete="off"
-                  classNameName="form-control search-input"
+                  autoFocus="on"
+                  autoComplete="off"
+                  className="form-control search-input"
                   id="city-input"
                 />
               </div>
