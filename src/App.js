@@ -33,11 +33,8 @@ function App() {
       <h1>
         <div id="city" className="city">New York</div>
       </h1>
-      
-      <p>
-        <div className="time" id="time">15:00 Friday</div>
-      </p>
-      
+      <div className="time" id="time">15:00 Friday</div>
+     
       <div className="info">
         <div className="description" id="description">rainy</div>
         <div className="humidity" id="humidity"></div>
@@ -48,7 +45,7 @@ function App() {
           <div className="col-3">
             <div className="weather-forecast-date">Thur</div>
             <div className="weather-icon">
-              <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="weather-image" width="200" height="100" />
+              <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="weather" width="200" height="100" />
             </div>
             
             <div className="weather-forecast-temperatures">
@@ -63,7 +60,7 @@ function App() {
       </div>
       <script src="src/app.js"></script>
 
-      <footer>This project was coded by <a href="https://github.com/lydi-in-tech/NEW-PROJECT.git" target="_blank" title="GitHub weather app project" rel="noopener noreferrer">Lydia Pelesane</a> and is <a href="https://github.com/shecodesio/weather" target="_blank" rel="noopener noreferrer">open-sourced on GitHub</a> and <a href="https://shecodes-weather.netlify.app/" target="_blank" rel="noopener noreferrer" title="weather app project on netlify website">hosted on Netlify</a></footer>
+      <footer>This project was coded by <a href="https://github.com/lydi-in-tech/NEW-PROJECT.git" target="_blank" title="GitHub weather app project" rel="noreferrer">Lydia Pelesane</a> and is <a href="https://github.com/shecodesio/weather" target="_blank" rel="noreferrer">open-sourced on GitHub</a> and <a href="https://shecodes-weather.netlify.app/" target="_blank" rel="noreferrer" title="weather app project on netlify website">hosted on Netlify</a></footer>
       </div>
 
    
