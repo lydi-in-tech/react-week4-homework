@@ -27,7 +27,7 @@ function App() {
         <div className="temp" id="temp">21</div>
         <span id="celcius" className="celcius">
           <strong id="temperature"></strong>
-          <a href="#" id="celsius-link">°C</a>|<a href="#" id="fahrenheit-link">°F</a>
+          <a href="/#" id="celsius-link">°C</a>|<a href="/#" id="fahrenheit-link">°F</a> 
         </span>
       </div>
       <h1>
